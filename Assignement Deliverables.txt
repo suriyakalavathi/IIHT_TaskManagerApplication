@@ -7,9 +7,14 @@ Front End : https://github.com/suriyakalavathi/IIHT_TaskManager_UI
 Backend : https://github.com/suriyakalavathi/IIHT_TaskManagerApplication
 
 Few Steps on how to run the solution
-Keep MYSQL up and running
-Keep TaskManagerApplication backend service up and running 
-execute ng serve from UI project path in terminal to run the UI app. 
-Once the app is running in local host,hit http://localhost:4200/task/add to access task manager app to task.
+Keep MYSQL up and running in port 3306
+Keep TaskManagerApplication backend service up and running  in port 9080
+execute ng serve from UI project path in terminal to run the UI app.
+Once the app is running in port 4200 ,hit http://localhost:4200/task/add to access task manager app to add task.
+Click View Task link to see the inserted records are available
+Click Update Table Link to update the records
+Enter search criterias to filter the tasks added
+
+execute "select * from tasktable" from MYSQL workbench to see the records inserted in DB.
 
 Refer attached screen shots from local run.
