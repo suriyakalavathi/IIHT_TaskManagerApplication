@@ -8,12 +8,12 @@ app.config(function ($routeProvider) {
 
         .when('/add', {
             templateUrl: 'pages/addTask.html',
-            controller: 'TaskManagerController'
+            controller: 'TaskApplicationController'
         })
 
         .when('/view', {
             templateUrl: 'pages/viewTask.html',
-            controller: 'TaskManagerController'
+            controller: 'TaskApplicationController'
         })
 
         .otherwise({redirectTo: '/'});

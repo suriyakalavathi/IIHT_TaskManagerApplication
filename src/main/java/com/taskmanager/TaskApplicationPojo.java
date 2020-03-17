@@ -12,7 +12,11 @@ import java.util.Objects;
 @Table(name="tasktable")
 public class TaskApplicationPojo implements Serializable {
 
-    @Id
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -4278597863468084717L;
+	@Id
     @Column(name = "Task_ID")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int taskId;
