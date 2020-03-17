@@ -1,0 +1,15 @@
+Assessment Deliverables:
+For Front End – zipped IIHT_TaskManager_UI.
+For Backend -zipped - IIHT_TaskManagerApplication.
+
+For SCM*–Project Code is present in active GIT repository - 
+Front End : https://github.com/suriyakalavathi/IIHT_TaskManager_UI 
+Backend : https://github.com/suriyakalavathi/IIHT_TaskManagerApplication
+
+Few Steps on how to run the solution
+Keep MYSQL up and running
+Keep TaskManagerApplication backend service up and running 
+execute ng serve from UI project path in terminal to run the UI app. 
+Once the app is running in local host,hit http://localhost:4200/task/add to access task manager app to task.
+
+Refer attached screen shots from local run.
